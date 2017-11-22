@@ -1,0 +1,31 @@
+1. 리액트 프로젝트 시작시 항상 컴포넌트 디자인을 먼저 생각하라
+내가 만들어야 하는 컴포넌트가 무엇인지
+우리 무비 앱에서의 컴포넌트는
+1) 무비 리스트 - 전체 리스트가 출력되는 컴포넌트
+2) 무비 카드 컴포넌트 - 영화에 대한 자세한 정보
+3) 이미지 컴포넌트 -
+
+
+jsx 리액트 컴포넌트 사용 언어
+모든 컴포넌트는 render function을 가지고 있다.
+render - 이 컴포넌트가 나에게 보여주는것이 무엇인가
+
+react - UI 라이브러리
+react-dom - 리액트를 웹사이트에 출력하는걸 도와주는 모델
+리액트를 모바일 앱에 올려놓고 싶다? 그럴때에는 reactNative
+
+리액트돔은 1개의 컴포넌트를 출력하고
+
+컴포넌트 사이클 중요
+// Render : componentWillMount() -> render() -> componentDidMount()
+
+//Update : componentWillReceiveProps() -> shouldComponentUpdate() -> componentWillUpdate() -> render() -> component
+
+Smart 컴포넌트
+State를 가지고 있다.
+
+Dumb 컴포넌트
+State가 없다.
+props만 가지고 있다.
+
+어떤 컴포넌트는 그냥 return 을 하기위해 존재한다.
